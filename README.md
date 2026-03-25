@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="assets/agent-ledger-hero.png" alt="agent-ledger — Vedic Arsenal" width="100%" />
+<img src="assets/agent-ledger-hero.png" alt="agent-ledger — Vedic Arsenal by Darshankumar Joshi" width="100%" />
 
 # 🌿 agent-ledger
 
-### *लेखा* — Lekha — the cosmic ledger of all actions
+<h3><em>लेखा</em></h3>
+
+> *Lekha — the cosmic ledger of all actions*
 
 **Audit logging and action ledger for agents — LedgerEntry, Ledger with query/filter, @audit decorator. Zero dependencies.**
 
@@ -39,6 +41,19 @@ Or clone directly:
 git clone https://github.com/darshjme/agent-ledger.git
 cd agent-ledger
 pip install -e .
+```
+
+## How It Works
+
+```mermaid
+flowchart LR
+    A[Input] --> B[agent-ledger]
+    B --> C{Process}
+    C -- Success --> D[Output]
+    C -- Error --> E[Handle / Retry]
+    E --> B
+    style B fill:#6b21a8,color:#fff
+    note["Ledger — Zero Dependencies"]
 ```
 
 ## Quick Start
@@ -90,7 +105,7 @@ MIT — use freely, build freely.
 
 <div align="center">
 
-**Built with 🌿 by [Darshankumar Joshi](https://github.com/darshjme)**
+**Built with 🌿 by [Darshankumar Joshi](https://github.com/darshjme)** · [@thedarshanjoshi](https://twitter.com/thedarshanjoshi)
 
 *"कर्मण्येवाधिकारस्ते मा फलेषु कदाचन"*
 *Your right is to action alone, never to the fruits thereof.*
